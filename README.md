@@ -21,9 +21,11 @@ O aplicativo possui os seguintes recursos:
 ### Instruções de Uso
 
 1. Clone o projeto.
-2. Abra o Xcode e selecione o arquivo KidsVideoSuggest.xcodeproj
-3. No explorador do projeto, abra o arquivo GeminiAI-Info.plist e insira a sua API KEY no valor da chave API_KEY.
-4. Execute o projeto no device de sua preferencia.
+2. Verifique se seu Xcode é no mínimo da versão 15
+3. Abra o Xcode e selecione o arquivo KidsVideoSuggest.xcodeproj
+4. Importe no projeto a dependencia do [Google AI SDK for Swift](https://github.com/google-gemini/generative-ai-swift)
+5. No explorador do projeto, abra o arquivo GeminiAI-Info.plist e insira a sua API KEY no valor da chave API_KEY.
+6. Execute o projeto no device de sua preferencia.
 
 ### Agradecimentos
 
