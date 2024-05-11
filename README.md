@@ -20,6 +20,13 @@ O aplicativo possui os seguintes recursos:
 
 ### Instruções de Uso
 
+1. Abra o app.
+2. Digite a idade da criança e clique no ícone de pesquisa.
+3. Após a IA retornar a lista de resultados, selecione um canal.
+4. O Youtube será aberto com a sugestão selecionada :)
+
+### Rodando o projeto
+
 1. Clone o projeto.
 2. Verifique se seu Xcode é no mínimo da versão 15
 3. Abra o Xcode e selecione o arquivo KidsVideoSuggest.xcodeproj
