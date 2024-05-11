@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4230B3E2BEE70FC00E2FCB0 /* KidsVIdeoSuggestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4230B3D2BEE70FC00E2FCB0 /* KidsVIdeoSuggestApp.swift */; };
+		F4230B402BEE70FC00E2FCB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4230B3F2BEE70FC00E2FCB0 /* ContentView.swift */; };
+		F4230B422BEE70FF00E2FCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4230B412BEE70FF00E2FCB0 /* Assets.xcassets */; };
+		F4230B462BEE70FF00E2FCB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4230B452BEE70FF00E2FCB0 /* Preview Assets.xcassets */; };
+		F4230B502BEE710000E2FCB0 /* KidsVIdeoSuggestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4230B4F2BEE710000E2FCB0 /* KidsVIdeoSuggestTests.swift */; };
+		F4230B5A2BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4230B592BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.swift */; };
+		F4230B5C2BEE710000E2FCB0 /* KidsVIdeoSuggestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4230B5B2BEE710000E2FCB0 /* KidsVIdeoSuggestUITestsLaunchTests.swift */; };
+		F4230B6A2BEE750400E2FCB0 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = F4230B692BEE750400E2FCB0 /* GoogleGenerativeAI */; };
+		F4230B6C2BEE755F00E2FCB0 /* GeminiAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4230B6B2BEE755F00E2FCB0 /* GeminiAI-Info.plist */; };
+		F4230B6E2BEE7BDC00E2FCB0 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4230B6D2BEE7BDC00E2FCB0 /* APIKEY.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4230B4C2BEE710000E2FCB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4230B322BEE70FC00E2FCB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4230B392BEE70FC00E2FCB0;
+			remoteInfo = KidsVIdeoSuggest;
+		};
+		F4230B562BEE710000E2FCB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4230B322BEE70FC00E2FCB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4230B392BEE70FC00E2FCB0;
+			remoteInfo = KidsVIdeoSuggest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4230B3A2BEE70FC00E2FCB0 /* Kids TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4230B3D2BEE70FC00E2FCB0 /* KidsVIdeoSuggestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsVIdeoSuggestApp.swift; sourceTree = "<group>"; };
+		F4230B3F2BEE70FC00E2FCB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4230B412BEE70FF00E2FCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4230B432BEE70FF00E2FCB0 /* KidsVIdeoSuggest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KidsVIdeoSuggest.entitlements; sourceTree = "<group>"; };
+		F4230B452BEE70FF00E2FCB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4230B4B2BEE710000E2FCB0 /* KidsVIdeoSuggestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsVIdeoSuggestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4230B4F2BEE710000E2FCB0 /* KidsVIdeoSuggestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsVIdeoSuggestTests.swift; sourceTree = "<group>"; };
+		F4230B552BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsVIdeoSuggestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4230B592BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsVIdeoSuggestUITests.swift; sourceTree = "<group>"; };
+		F4230B5B2BEE710000E2FCB0 /* KidsVIdeoSuggestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsVIdeoSuggestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4230B6B2BEE755F00E2FCB0 /* GeminiAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeminiAI-Info.plist"; sourceTree = "<group>"; };
+		F4230B6D2BEE7BDC00E2FCB0 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4230B372BEE70FC00E2FCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B6A2BEE750400E2FCB0 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B482BEE710000E2FCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B522BEE710000E2FCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4230B312BEE70FC00E2FCB0 = {
+			isa = PBXGroup;
+			children = (
+				F4230B3C2BEE70FC00E2FCB0 /* KidsVIdeoSuggest */,
+				F4230B4E2BEE710000E2FCB0 /* KidsVIdeoSuggestTests */,
+				F4230B582BEE710000E2FCB0 /* KidsVIdeoSuggestUITests */,
+				F4230B3B2BEE70FC00E2FCB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4230B3B2BEE70FC00E2FCB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B3A2BEE70FC00E2FCB0 /* Kids TV.app */,
+				F4230B4B2BEE710000E2FCB0 /* KidsVIdeoSuggestTests.xctest */,
+				F4230B552BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4230B3C2BEE70FC00E2FCB0 /* KidsVIdeoSuggest */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B3D2BEE70FC00E2FCB0 /* KidsVIdeoSuggestApp.swift */,
+				F4230B3F2BEE70FC00E2FCB0 /* ContentView.swift */,
+				F4230B6B2BEE755F00E2FCB0 /* GeminiAI-Info.plist */,
+				F4230B412BEE70FF00E2FCB0 /* Assets.xcassets */,
+				F4230B432BEE70FF00E2FCB0 /* KidsVIdeoSuggest.entitlements */,
+				F4230B442BEE70FF00E2FCB0 /* Preview Content */,
+				F4230B6D2BEE7BDC00E2FCB0 /* APIKEY.swift */,
+			);
+			path = KidsVIdeoSuggest;
+			sourceTree = "<group>";
+		};
+		F4230B442BEE70FF00E2FCB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B452BEE70FF00E2FCB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4230B4E2BEE710000E2FCB0 /* KidsVIdeoSuggestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B4F2BEE710000E2FCB0 /* KidsVIdeoSuggestTests.swift */,
+			);
+			path = KidsVIdeoSuggestTests;
+			sourceTree = "<group>";
+		};
+		F4230B582BEE710000E2FCB0 /* KidsVIdeoSuggestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B592BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.swift */,
+				F4230B5B2BEE710000E2FCB0 /* KidsVIdeoSuggestUITestsLaunchTests.swift */,
+			);
+			path = KidsVIdeoSuggestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4230B392BEE70FC00E2FCB0 /* KidsVIdeoSuggest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4230B5F2BEE710000E2FCB0 /* Build configuration list for PBXNativeTarget "KidsVIdeoSuggest" */;
+			buildPhases = (
+				F4230B362BEE70FC00E2FCB0 /* Sources */,
+				F4230B372BEE70FC00E2FCB0 /* Frameworks */,
+				F4230B382BEE70FC00E2FCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsVIdeoSuggest;
+			packageProductDependencies = (
+				F4230B692BEE750400E2FCB0 /* GoogleGenerativeAI */,
+			);
+			productName = KidsVIdeoSuggest;
+			productReference = F4230B3A2BEE70FC00E2FCB0 /* Kids TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4230B4A2BEE710000E2FCB0 /* KidsVIdeoSuggestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4230B622BEE710000E2FCB0 /* Build configuration list for PBXNativeTarget "KidsVIdeoSuggestTests" */;
+			buildPhases = (
+				F4230B472BEE710000E2FCB0 /* Sources */,
+				F4230B482BEE710000E2FCB0 /* Frameworks */,
+				F4230B492BEE710000E2FCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4230B4D2BEE710000E2FCB0 /* PBXTargetDependency */,
+			);
+			name = KidsVIdeoSuggestTests;
+			productName = KidsVIdeoSuggestTests;
+			productReference = F4230B4B2BEE710000E2FCB0 /* KidsVIdeoSuggestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4230B542BEE710000E2FCB0 /* KidsVIdeoSuggestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4230B652BEE710000E2FCB0 /* Build configuration list for PBXNativeTarget "KidsVIdeoSuggestUITests" */;
+			buildPhases = (
+				F4230B512BEE710000E2FCB0 /* Sources */,
+				F4230B522BEE710000E2FCB0 /* Frameworks */,
+				F4230B532BEE710000E2FCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4230B572BEE710000E2FCB0 /* PBXTargetDependency */,
+			);
+			name = KidsVIdeoSuggestUITests;
+			productName = KidsVIdeoSuggestUITests;
+			productReference = F4230B552BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4230B322BEE70FC00E2FCB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F4230B392BEE70FC00E2FCB0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F4230B4A2BEE710000E2FCB0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F4230B392BEE70FC00E2FCB0;
+					};
+					F4230B542BEE710000E2FCB0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F4230B392BEE70FC00E2FCB0;
+					};
+				};
+			};
+			buildConfigurationList = F4230B352BEE70FC00E2FCB0 /* Build configuration list for PBXProject "KidsVIdeoSuggest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4230B312BEE70FC00E2FCB0;
+			packageReferences = (
+				F4230B682BEE750400E2FCB0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = F4230B3B2BEE70FC00E2FCB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4230B392BEE70FC00E2FCB0 /* KidsVIdeoSuggest */,
+				F4230B4A2BEE710000E2FCB0 /* KidsVIdeoSuggestTests */,
+				F4230B542BEE710000E2FCB0 /* KidsVIdeoSuggestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4230B382BEE70FC00E2FCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B6C2BEE755F00E2FCB0 /* GeminiAI-Info.plist in Resources */,
+				F4230B462BEE70FF00E2FCB0 /* Preview Assets.xcassets in Resources */,
+				F4230B422BEE70FF00E2FCB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B492BEE710000E2FCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B532BEE710000E2FCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4230B362BEE70FC00E2FCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B6E2BEE7BDC00E2FCB0 /* APIKEY.swift in Sources */,
+				F4230B402BEE70FC00E2FCB0 /* ContentView.swift in Sources */,
+				F4230B3E2BEE70FC00E2FCB0 /* KidsVIdeoSuggestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B472BEE710000E2FCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B502BEE710000E2FCB0 /* KidsVIdeoSuggestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B512BEE710000E2FCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B5C2BEE710000E2FCB0 /* KidsVIdeoSuggestUITestsLaunchTests.swift in Sources */,
+				F4230B5A2BEE710000E2FCB0 /* KidsVIdeoSuggestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4230B4D2BEE710000E2FCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4230B392BEE70FC00E2FCB0 /* KidsVIdeoSuggest */;
+			targetProxy = F4230B4C2BEE710000E2FCB0 /* PBXContainerItemProxy */;
+		};
+		F4230B572BEE710000E2FCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4230B392BEE70FC00E2FCB0 /* KidsVIdeoSuggest */;
+			targetProxy = F4230B562BEE710000E2FCB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4230B5D2BEE710000E2FCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4230B5E2BEE710000E2FCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F4230B602BEE710000E2FCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KidsVIdeoSuggest/KidsVIdeoSuggest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KidsVIdeoSuggest/Preview Content\"";
+				DEVELOPMENT_TEAM = AWG96H8256;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafanereslima.KidsVIdeoSuggest;
+				PRODUCT_NAME = "Kids TV";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4230B612BEE710000E2FCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KidsVIdeoSuggest/KidsVIdeoSuggest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KidsVIdeoSuggest/Preview Content\"";
+				DEVELOPMENT_TEAM = AWG96H8256;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafanereslima.KidsVIdeoSuggest;
+				PRODUCT_NAME = "Kids TV";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4230B632BEE710000E2FCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWG96H8256;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafanereslima.KidsVIdeoSuggestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidsVIdeoSuggest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KidsVIdeoSuggest";
+			};
+			name = Debug;
+		};
+		F4230B642BEE710000E2FCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWG96H8256;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafanereslima.KidsVIdeoSuggestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidsVIdeoSuggest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KidsVIdeoSuggest";
+			};
+			name = Release;
+		};
+		F4230B662BEE710000E2FCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWG96H8256;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafanereslima.KidsVIdeoSuggestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KidsVIdeoSuggest;
+			};
+			name = Debug;
+		};
+		F4230B672BEE710000E2FCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWG96H8256;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafanereslima.KidsVIdeoSuggestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KidsVIdeoSuggest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4230B352BEE70FC00E2FCB0 /* Build configuration list for PBXProject "KidsVIdeoSuggest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B5D2BEE710000E2FCB0 /* Debug */,
+				F4230B5E2BEE710000E2FCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4230B5F2BEE710000E2FCB0 /* Build configuration list for PBXNativeTarget "KidsVIdeoSuggest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B602BEE710000E2FCB0 /* Debug */,
+				F4230B612BEE710000E2FCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4230B622BEE710000E2FCB0 /* Build configuration list for PBXNativeTarget "KidsVIdeoSuggestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B632BEE710000E2FCB0 /* Debug */,
+				F4230B642BEE710000E2FCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4230B652BEE710000E2FCB0 /* Build configuration list for PBXNativeTarget "KidsVIdeoSuggestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B662BEE710000E2FCB0 /* Debug */,
+				F4230B672BEE710000E2FCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4230B682BEE750400E2FCB0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4230B692BEE750400E2FCB0 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4230B682BEE750400E2FCB0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F4230B322BEE70FC00E2FCB0 /* Project object */;
+}
